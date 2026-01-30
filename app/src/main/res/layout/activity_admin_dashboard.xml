@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="CityXpertzz - Admin Dashboard"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btnApproveProviders" android:text="Approve / Reject Providers" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnViewProviders" android:text="View Approved Providers" android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnViewServices" android:text="View All Services" android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <Button android:id="@+id/btnViewBookings" android:text="View All Bookings" android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnLogout" android:text="Logout" android:layout_marginTop="20dp" android:backgroundTint="@android:color/holo_red_light" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+</LinearLayout>
